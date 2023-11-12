@@ -1,3 +1,6 @@
+import netflix_logo from './assets/img/netflix_logo.png';
+import colors_logo from './assets/img/colors_logo.png';
+
 export default function Work() {
   return (
     <>
@@ -15,7 +18,7 @@ export default function Work() {
                 <div
                   className="p-4 pt-2 sm:p-6 lg:p-8"
                 >
-                  <img src="../src/assets/img/netflix.png" className="rounded-full h-10 w-10 sm:h-12 sm:w-12" alt="" />
+                  <img src={netflix_logo} className="rounded-full h-10 w-10 sm:h-12 sm:w-12" alt="" />
 
                   <h2 className="mt-4 text-xl font-medium sm:text-2xl">Netflix Website Clone</h2>
                   <p className="mt-4 text-sm sm:text-base">
@@ -45,7 +48,7 @@ export default function Work() {
                 <div
                   className="p-4 pt-2 sm:p-6 lg:p-8"
                 >
-                  <img src="../src/assets/img/colors.io.png" className="rounded-full h-10 w-10 sm:h-12 sm:w-12" alt="" />
+                  <img src={colors_logo} className="rounded-full h-10 w-10 sm:h-12 sm:w-12" alt="" />
 
                   <h2 className="mt-4 text-xl font-medium sm:text-2xl">Colors.io Website</h2>
                     <p className="mt-4 text-sm sm:text-base">
