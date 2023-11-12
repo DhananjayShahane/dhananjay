@@ -1,3 +1,4 @@
+import footer_img from '../footer_img.png';
 function Footer (){
     return(
         <>
@@ -8,7 +9,7 @@ function Footer (){
                     </p>
                 </div>
                 <div className="text-center flex justify-center">
-                   <img width="900" srcSet="./footer_img.png" src="./footer_img.png" type="image"></img>
+                   <img width="900" srcSet={footer_img} src={footer_img} ></img>
                 </div>
             </footer>
         </>
