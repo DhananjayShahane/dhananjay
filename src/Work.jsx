@@ -11,7 +11,7 @@ export default function Work() {
         <div className="flex flex-wrap gap-3 justify-center">
 
           {/*netflix website ::start */}
-          <a href="" className="group relative block h-50 sm:h-60 sm:max-max-w-[300px]">
+          <a href="https://netflix-website-2023.vercel.app" className="group relative block h-50 sm:h-60 sm:max-max-w-[300px]">
             <div
               className="relative flex h-full transform items-end border-4 rounded-3xl border-slate-100 bg-white transition-transform "
             >
@@ -41,7 +41,7 @@ export default function Work() {
           {/*netflix website ::end */}
           
           {/* color.io website :: start */}
-          <a href="" className="group relative block h-50 sm:h-60 sm:max-w-[400px]">
+          <a href="https://colors-website-2023.vercel.app" className="group relative block h-50 sm:h-60 sm:max-w-[400px]">
             <div
               className="relative flex h-full transform items-end border-4 rounded-3xl border-slate-100 bg-white transition-transform "
             >
