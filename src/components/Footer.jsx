@@ -7,8 +7,8 @@ function Footer (){
                         className="fw-bolder text-dark">India</span>
                     </p>
                 </div>
-                <div className="footer_footerImageWrapper text-center flex justify-center">
-                   <img alt="footer-img" width="900" srcSet="../src/assets/img/footer_img.png" src="../src/assets/img/footer_img.png"></img>
+                <div className="text-center flex justify-center">
+                   <img width="900" srcSet="../src/assets/img/footer_img.png" src="../src/assets/img/footer_img.png"></img>
                 </div>
             </footer>
         </>
