@@ -8,7 +8,7 @@ function Footer (){
                     </p>
                 </div>
                 <div className="text-center flex justify-center">
-                   <img width="900" srcSet="./footer_img.png" src="./footer_img.png"></img>
+                   <img width="900" srcSet="./footer_img.png" src="./footer_img.png" type="image"></img>
                 </div>
             </footer>
         </>
