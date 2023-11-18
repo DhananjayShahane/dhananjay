@@ -9,3 +9,25 @@
   height: 100%;
   transition: width 0.2s ease;
 }
+
+
+.magicalText{
+  background: linear-gradient( to right, #be28d9 20%, #7dd3fc 30%, #60a5fa 70%, #5b21b6 80% );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: shine 3s ease-in-out infinite alternate;
+  padding-bottom: 20px;
+}
+
+
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}

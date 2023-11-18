@@ -55,7 +55,7 @@ function Header() {
 
       <header className="text-gray-600 px-4 py-2 body-font">
          <nav className="flex justify-between items-center">
-           <Link className="logo" to='/' style={logostyle}>
+           <Link className="logo " to='/' style={logostyle}>
             Dhananjay <br /> 
            </Link>
 

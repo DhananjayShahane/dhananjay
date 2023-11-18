@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import './App.css'
 
 function Home(){
     return(
@@ -8,9 +8,9 @@ function Home(){
            <section className="text-gray-600 body-font ">
                 <div className="container mx-auto px-5 py-24">
                     <div className="text-center w-full">
-                       <h1 className="title-font sm:text-7xl text-5xl mb-4 font-medium text-gray-900 style_header">Dhananjay Shahane</h1>
+                       <h1 className="title-font sm:text-7xl text-5xl mb-4 font-medium text-gray-900 style_header magicalText ">Dhananjay Shahane</h1>
                        <p className="mb-8 leading-relaxed text-2xl">
-                       I specialize in Front-End Development and freelance work, where I thrive on solving complex puzzles and transforming them into user-friendly interfaces through design and code. With my expertise, I craft visually appealing and seamless experiences for users.
+                       I sppecialize in Front-End Development and freelance work, where I thrive on solving complex puzzles and transforming them into user-friendly interfaces through design and code. With my expertise, I craft visually appealing and seamless experiences for users.
 
                         </p>
                         <div className="flex justify-center mb-3 mt-2">
